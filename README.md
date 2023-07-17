@@ -2,6 +2,8 @@
 
 THIS IS OUR TEST APPLICATION!
 
+Check it out here https://www.glucoease.de
+
 Welcome to GlucoEase, a React.js application designed to help you view and manage your glucose levels and gain insights into your diabetes. 
 
 ## Table of Contents
