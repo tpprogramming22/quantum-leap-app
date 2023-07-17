@@ -60,7 +60,7 @@ const UserBox = () => {
                     onClick={toggleDropdown}
                     className="user-name h5 mt-2 mb-1 d-block"
                 >
-                    Nowak Helme
+                    Theodore Palmer
                 </Dropdown.Toggle>
                 <Dropdown.Menu className="user-pro-dropdown">
                     <div onClick={toggleDropdown}>
@@ -79,7 +79,7 @@ const UserBox = () => {
                     </div>
                 </Dropdown.Menu>
             </Dropdown>
-            <p className="text-muted left-user-info">Admin Head</p>
+            <p className="text-muted left-user-info"></p>
 
             <ul className="list-inline">
                 <li className="list-inline-item">

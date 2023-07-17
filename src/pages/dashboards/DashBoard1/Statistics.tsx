@@ -7,7 +7,7 @@ import StatisticsWidget2 from '../../../components/StatisticsWidget2';
 const Statistics = () => {
     return (
         <Row>
-            <Col xl={3} md={6}>
+            {/* <Col xl={3} md={6}>
                 <StatisticsWidget1
                     title="Total Revenue"
                     data={58}
@@ -46,7 +46,7 @@ const Statistics = () => {
                     subTitle="Revenue today"
                     progress={77}
                 />
-            </Col>
+            </Col> */}
         </Row>
     );
 };

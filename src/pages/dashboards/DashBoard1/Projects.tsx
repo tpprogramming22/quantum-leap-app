@@ -23,17 +23,16 @@ const Projects = ({ projectDetails }: ProjectsProps) => {
                     </Dropdown.Menu>
                 </Dropdown>
 
-                <h4 className="header-title mt-0 mb-3">Latest Projects</h4>
+                <h4 className="header-title mt-0 mb-3">Latest Events</h4>
 
                 <Table responsive hover className="mb-0">
                     <thead>
                         <tr>
                             <th>#</th>
-                            <th>Project Name</th>
-                            <th>Start Date</th>
-                            <th>Due Date</th>
+                            <th>Date</th>
                             <th>Status</th>
-                            <th>Assign</th>
+                            <th>Average Measure</th>
+                            
                         </tr>
                     </thead>
                     <tbody>

@@ -54,7 +54,7 @@ const RightSidebar = () => {
     return (
         <>
             <div className="right-bar" ref={rightBarNodeRef}>
-                <Scrollbar style={{ maxHeight: '100%', zIndex: 10000 }} className="h-100">
+                {/* <Scrollbar style={{ maxHeight: '100%', zIndex: 10000 }} className="h-100">
                     <div className="rightbar-title">
                         <Link to="#" className="right-bar-toggle float-end" onClick={handleClose}>
                             <i className="mdi mdi-close"></i>
@@ -67,7 +67,7 @@ const RightSidebar = () => {
                             <ThemeCustomizer />
                         </Tab.Pane>
                     </Tab.Content>
-                </Scrollbar>
+                </Scrollbar> */}
             </div>
             <div className="rightbar-overlay"></div>
         </>

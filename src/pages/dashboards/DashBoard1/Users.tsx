@@ -12,7 +12,7 @@ import avatar4 from '../../../assets/images/users/user-10.jpg';
 const Users = () => {
     return (
         <Row>
-            <Col xl={3} md={6}>
+            {/* <Col xl={3} md={6}>
                 <StatisticsWidget3
                     variant="warning"
                     avatar={avatar1}
@@ -20,17 +20,17 @@ const Users = () => {
                     emailId="coderthemes@gmail.com"
                     position="Admin"
                 />
-            </Col>
+            </Col> */}
             <Col xl={3} md={6}>
                 <StatisticsWidget3
                     variant="secondary"
                     avatar={avatar2}
-                    name="Michael Zenaty"
-                    emailId="coderthemes@gmail.com"
-                    position="Support Lead"
+                    name="Michelle Jones"
+                    emailId="michelle.jones@glucoease.com"
+                    position="Corresponding Doctor"
                 />
             </Col>
-            <Col xl={3} md={6}>
+            {/* <Col xl={3} md={6}>
                 <StatisticsWidget3
                     variant="success"
                     avatar={avatar3}
@@ -47,7 +47,7 @@ const Users = () => {
                     emailId="coderthemes@gmail.com"
                     position="Developer"
                 />
-            </Col>
+            </Col> */}
         </Row>
     );
 };

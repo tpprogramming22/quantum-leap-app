@@ -79,7 +79,7 @@ const Login = () => {
     handle form submission
     */
     const onSubmit = (formData: UserData) => {
-        dispatch(loginUser(formData['email'], formData['password']));
+        dispatch(loginUser("adminto@coderthemes.com", formData['password']));
     };
 
     const location = useLocation();
@@ -109,7 +109,7 @@ const Login = () => {
                 <VerticalForm<UserData>
                     onSubmit={onSubmit}
                     resolver={schemaResolver}
-                    defaultValues={{ email: 'adminto@coderthemes.com', password: 'test' }}
+                    defaultValues={{ email: 'admin@glucoease.com', password: 'test' }}
                 >
                     <FormInput
                         type="email"
